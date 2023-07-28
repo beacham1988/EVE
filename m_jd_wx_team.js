@@ -12,7 +12,7 @@ if (mode) {
     $.activityUrl = `https://hdb-isv.isvjcloud.com/h5/pages/partitionTeam/partitionTeam?id=5a387f9f1e81f5ba037da023d0ae449b&userId=1000009802`
 }
 //前n个号有机会成为队长
-let leaderNumber = parseInt(process.env.M_WX_TEAM_MASTER_LEADER_NUM || 1)
+let leaderNumber = parseInt(process.env.M_WX_TEAM_LEADER_NUM || 1)
 //只跑豆子？1：2
 let onlyBean = parseInt(process.env.M_WX_TEAM_ONLY_BEAN || 2)
 //超过这个才跑
