@@ -1,4 +1,4 @@
-//0 11,21 * * * m_jd_wx_xiaolong_hand.js
+//0 11,21 * * * m_jd_wx_xiaolong.js
 let mode = __dirname.includes('magic')
 const {Env} = mode ? require('./magic') : require('./magic')
 const $ = new Env('M骁龙抽奖');
